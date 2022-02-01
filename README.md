@@ -1,6 +1,5 @@
 # Tonga_Volcano_Code
 
-### Introduction
 This repository contains code and data used in the `The January 2022 eruption of Hunga Tonga-Hunga Ha’apai volcano reached the mesosphere` paper submitted in Feb 2022.
 Here you will find in the top level directory:
  - Three python notebooks (`Make_FigN.ipynb`) that were used to generate figures 2, 3 and 4.
@@ -11,7 +10,9 @@ Here you will find in the top level directory:
  - Various other files used in processing, most of which duplicate one or more of the above.
  
 The `Height_Out` subdirectory contains TIF files for each Himawari-8 timestep. These files contain float32 values denoting the plume altitude retrieved using the IR brightness temperature method.
+
 The `Heightmap` subdirectory contains TIF files for each 10 minute timestep covering the plume in daylight. These files contain float32 values denoting plume altitude retrieved using the stereoscopic method.
+
 The `Figures` subdirectory contains PNG and EPS versions of the figures (or subfigures) used in the article.
 The `Scripts` subdirectory contains:
  - `BT_Height_Helpers.py`: Helper functions for the IR-based temperature retrieval
